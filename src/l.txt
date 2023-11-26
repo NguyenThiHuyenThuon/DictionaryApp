@@ -1,0 +1,102 @@
+1    Follow                                                                     verb         /ˈfɒl.əʊ/         theo dõi
+2    Understand                                                                     verb         /ˌʌn.dəˈstænd/         hiểu
+3    Improve                                                                     verb         /ɪmˈpruːv/         cải thiện
+4    Communicate                                                                     verb         /kəˈmjuː.nɪ.keɪt/         giao tiếp
+5    Attend                                                                     verb         /əˈtend/         tham dự
+6    Continue                                                                     verb         /kənˈtɪn.juː/         tiếp tục
+7    Announce                                                                     verb         /əˈnaʊns/         thông báo
+8    Revise                                                                     verb         /rɪˈvaɪz/         ôn tập
+9    Enroll                                                                     verb         /ɪnˈrəʊl/         nhập học
+10    Succeed                                                                     verb         /səkˈsiːd/         thành công
+11    Memorise                                                                     verb         /ˈmem.ə.raɪz/         học thuộc
+12    Call                                                                     verb         /kɔːl/         gọi (ai, là gì)
+13    Know                                                                     verb         /nəʊ/         biết
+14    Tell                                                                     verb         /tel/         kể (cho ai)
+15    Spell                                                                     verb         /spel/         đánh vần
+16    Live                                                                     verb         /lɪv/         sinh sống
+17    Describe                                                                     verb         /dɪˈskraɪb/         miêu tả
+18    Sign                                                                     verb         /saɪn/         ký tên
+19    Open                                                                     adjective         /ˈəʊ.pən/         mở (một dịch vụ)
+20    Offer                                                                     verb         /ˈɒf.ər/         đề xuất
+21    Design                                                                     verb         /dɪˈzaɪn/         thiết kế
+22    Prepare                                                                     verb         /prɪˈpeər/         chuẩn bị
+23    Arrange                                                                     verb         /əˈreɪndʒ/         sắp xếp
+24    Manage                                                                     verb         /ˈmæn.ɪdʒ/         quản lý
+25    Spend                                                                     verb         /spend/         tiêu tiền
+26    Save                                                                     verb         /seɪv/         tiết kiệm
+27    Borrow                                                                     verb         /ˈbɒr.əʊ/         vay, mượn
+28    Owe                                                                     verb         /əʊ/         nợ
+29    Lend                                                                     verb         /lend/         cho vay, thuê
+30    Raise                                                                     verb         /reɪz/         tăng
+31    Decrease                                                                     verb         /dɪˈkriːs/         giảm
+32    Throw                                                                     verb         /θrəʊ/         ném
+33    Lack                                                                     noun          /læk/         thiếu
+34    Build                                                                     verb         /bɪld/         xây dựng
+35    Face                                                                     noun         /feɪs/         hướng về
+36    Decorate                                                                     verb         /ˈdek.ə.reɪt/         trang trí
+37    Share                                                                     verb         /ʃeər/         chia sẻ
+38    Inform                                                                     verb         /ɪnˈfɔːm/         báo tin
+39    Develop                                                                     verb         /dɪˈvel.əp/         phát triển
+40    Invite                                                                     verb         /ɪnˈvaɪt/         mời
+41    Book                                                                     noun         /bʊk/         đặt chỗ
+42    Escape                                                                     verb         /ɪˈskeɪp/         trốn khỏi
+43    Experience                                                                     noun         /ɪkˈspɪə.ri.əns/         trải nghiệm
+44    Discover                                                                     verb         /dɪˈskʌv.ər/         khám phá
+45    Try                                                                     verb         /traɪ/         thử
+46    Recommend                                                                     verb         /ˌrek.əˈmend/         đề xuất
+47    Taste                                                                     noun          /teɪst/         nếm thử
+48    Hike                                                                     noun         /haɪk/         đi bộ đường dài
+49    Pray                                                                     verb         /preɪ/         cầu nguyện
+50    Party                                                                     noun         /ˈpɑː.ti/         tiệc tùng
+51    Welcome                                                                     verb         /ˈwel.kəm/         hoan nghênh
+52    Tidy                                                                     adjective         /ˈtaɪ.di/         dọn dẹp
+53    Exchange                                                                     noun         /ɪksˈtʃeɪndʒ/         trao đổi
+54    Expect                                                                     verb         ɪkˈspekt/         mong đợi
+55    Respect                                                                     noun         /rɪˈspekt/         tôn trọng
+56    Believe                                                                     verb         /bɪˈliːv/         tin tưởng
+57    Mean                                                                     verb         /miːn/         có ý định
+58    Surprise                                                                     noun         /səˈpraɪz/         làm bất ngờ
+59    Control                                                                     verb         /kənˈtrəʊl/         điều khiển
+60    Avoid                                                                     verb         /əˈvɔɪd/         tránh
+61    Persuade                                                                     verb         /pəˈsweɪd/         thuyết phục
+62    Approach                                                                     verb         /əˈprəʊtʃ/         tiếp cận
+63    Forecast                                                                     noun          /ˈfɔː.kɑːst/         dự báo
+64    Last                                                                     adjective/adverb/pronoun/noun         /lɑːst/         kéo dài
+65    Boil                                                                     verb         /bɔɪl/         luộc
+66    Grill                                                                     noun         /ɡrɪl/         nướng
+67    Prepare                                                                     verb         /prɪˈpeər/         chuẩn bị
+68    Stir-fry                                                                     verb         /ˈstɜː.fraɪ/         xào
+69    Serve                                                                     verb         /sɜːv/         phục vụ
+70    Pour                                                                     verb         /pɔːr/         rót
+71    Stir                                                                     verb         /stɜːr/         khuấy
+72    Add                                                                     verb         /æd/         thêm
+73    Roast                                                                     verb         /rəʊst/         nướng bỏ lò
+74    Follow                                                                     verb         /ˈfɒl.əʊ/         tuân theo
+75    Stay                                                                     verb         /steɪ/         giữ nguyên
+76    Snack                                                                     noun         /snæk/         ăn vặt
+77    Breathe                                                                     verb         /briːð/         thở
+78    Mix                                                                     verb         /mɪks/         trộn
+79    Spoil                                                                     verb         /spɔɪl/         bị hỏng
+80    Plant                                                                     noun          /plɑːnt/         trồng
+81    Harvest                                                                     noun         /ˈhɑː.vɪst/         thu hoạch
+82    Pickle                                                                     noun          /ˈpɪk.əl/         muối chua
+83    Explore                                                                     verb         /ɪkˈsplɔːr/         khám phá
+84    Grow                                                                     verb         /ɡrəʊ/         lớn lên
+85    Protect                                                                     verb         /prəˈtekt/         bảo vệ
+86    Rely                                                                     phrasal-verb         /rɪˈlɑɪ/         dựa dẫm
+87    Surround                                                                     verb         /səˈraʊnd/         bao quanh
+88    Sunbathe                                                                     verb         /ˈsʌn.beɪð/         tắm nắng
+89    Care                                                                     noun          /keər/         quan tâm
+90    Exercise                                                                     noun         /ˈek.sə.saɪz/         tập thể dục
+91    Damage                                                                     verb         /ˈdæm.ɪdʒ/         phá hỏng
+92    Prevent                                                                     verb         /prɪˈvent/         phòng tránh
+93    Remain                                                                     verb         /rɪˈmeɪn/         giữ nguyên
+94    Injure                                                                     verb         /ˈɪn.dʒər/         gây thương tích
+95    Bleed                                                                     verb         /bliːd/         chảy máu
+96    Hurt                                                                     verb         /hɜːt/         làm bị đau
+97    Suffer                                                                     verb         /ˈsʌf.ər/         chịu đựng
+98    Ease                                                                     verb         /iːz/         xoa dịu
+99    Consider                                                                     verb         /kənˈsɪd.ər/         cân nhắc
+100    Admit                                                                     verb         /ədˈmɪt/         thừa nhận
+101    j                    []        r/        k
+102    k                //        d
