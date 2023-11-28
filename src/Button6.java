@@ -14,7 +14,7 @@ public class Button6 extends JFrame {
     JButton Sbutton;
     JTextArea mean = new JTextArea();
 
-    JButton loa = new JButton();
+    JButton loa;
     private static Image scaleImage(Image image, int w, int h) {
         Image scaled = image.getScaledInstance(w, h, Image.SCALE_SMOOTH);
         return scaled;
@@ -30,10 +30,8 @@ public class Button6 extends JFrame {
         labelSearched.setBounds(50, 50, 200, 20);
         labelSearched.setFont(new Font("Segoe UI Black", 2, 20));
         add(labelSearched);
-/**
-        textFieldA.setBounds(120, 80, 300, 30);
-        add(textFieldA);
-*/
+
+
         ImageIcon originalIcon = new ImageIcon
                 ("C:\\Users\\User\\IdeaProjects\\project\\src\\Sicon.png");
         Image scaled = scaleImage(originalIcon.getImage(), 20, 20);
@@ -72,8 +70,8 @@ public class Button6 extends JFrame {
 
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }
+
     private final JComboBox combo = new JComboBox();
-    JPanel panel = new JPanel();
     private boolean hide_flag = false;
     Vector<String> SearchedWords = new Vector<>();
     public void searchBar(ArrayList<String> list){

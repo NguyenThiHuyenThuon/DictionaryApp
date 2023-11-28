@@ -1,7 +1,6 @@
 import javax.swing.*;
 import java.awt.*;
 import java.io.FileNotFoundException;
-import java.io.IOException;
 
 public class Button2 extends JFrame {
     JButton exit;
@@ -9,12 +8,12 @@ public class Button2 extends JFrame {
     JTextField word;
     JTextField mean;
 
-    JTextField pronouce;
+    JTextField pronounce;
     JTextField type;
     JLabel re;
     JLabel re1;
     JLabel re2;
-    private static Image scaleImage(Image image, int w, int h) {
+    public static Image scaleImage(Image image, int w, int h) {
         Image scaled = image.getScaledInstance(w, h, Image.SCALE_SMOOTH);
         return scaled;
     }
@@ -76,14 +75,14 @@ public class Button2 extends JFrame {
         type.setBackground(Color.WHITE);
         type.setEditable(true);
 
-        JLabel label3 = new JLabel("Pronouce:");
+        JLabel label3 = new JLabel("Pronounce:");
         label3.setFont(new Font("Segoe UI Black", 2, 20));
         label3.setBounds(30,240+50,200,20);
 
-        pronouce = new JTextField(25);
-        pronouce.setFont(new Font("Arial",3,14));
-        pronouce.setBackground(Color.WHITE);
-        pronouce.setEditable(true);
+        pronounce = new JTextField(25);
+        pronounce.setFont(new Font("Arial",3,14));
+        pronounce.setBackground(Color.WHITE);
+        pronounce.setEditable(true);
 
         JPanel panel = new JPanel();
         JPanel panel2 = new JPanel();
@@ -107,7 +106,7 @@ public class Button2 extends JFrame {
         panel3.add(label2);
         panel3.add(type);
         panel4.add(label3);
-        panel4.add(pronouce);
+        panel4.add(pronounce);
         add(panel);
         add(panel2);
         add(panel3);
@@ -155,7 +154,7 @@ public class Button2 extends JFrame {
         exit2.addActionListener(e -> {
             word.setText("");
             type.setText("");
-            pronouce.setText("");
+            pronounce.setText("");
             mean.setText("");
             re.setVisible(false);
             re1.setVisible(false);

@@ -8,17 +8,13 @@ public class Button4 extends JFrame {
 
     frame3 frame3 = new frame3();
 
-    private static Image scaleImage(Image image, int w, int h) {
-        Image scaled = image.getScaledInstance(w, h, Image.SCALE_SMOOTH);
-        return scaled;
-    }
     public Button4() {
 
         frame2.addButton.addActionListener(e -> {
             frame2.mean.setText("");
             frame2.type.setText("");
             frame2.word.setText("");
-            frame2.pronouce.setText("");
+            frame2.pronounce.setText("");
         });
         frame2.exit.addActionListener(e -> {
             frame1.setVisible(true);
@@ -90,7 +86,7 @@ class frame2 extends frame {
     JTextField word;
     JTextField mean;
 
-    JTextField pronouce;
+    JTextField pronounce;
     JTextField type;
     public frame2() {
         JLabel label = new JLabel("  Word:    ");
@@ -121,14 +117,14 @@ class frame2 extends frame {
         type.setBackground(Color.WHITE);
         type.setEditable(true);
 
-        JLabel label3 = new JLabel("Pronouce:");
+        JLabel label3 = new JLabel("Pronounce:");
         label3.setFont(new Font("Segoe UI Black", 2, 20));
         label3.setBounds(30,240+50,200,20);
 
-        pronouce = new JTextField(25);
-        pronouce.setFont(new Font("Arial",3,14));
-        pronouce.setBackground(Color.WHITE);
-        pronouce.setEditable(true);
+        pronounce = new JTextField(25);
+        pronounce.setFont(new Font("Arial",3,14));
+        pronounce.setBackground(Color.WHITE);
+        pronounce.setEditable(true);
 
         JPanel panel = new JPanel();
         JPanel panel2 = new JPanel();
@@ -152,7 +148,7 @@ class frame2 extends frame {
         panel3.add(label2);
         panel3.add(type);
         panel4.add(label3);
-        panel4.add(pronouce);
+        panel4.add(pronounce);
         add(panel);
         add(panel2);
         add(panel3);

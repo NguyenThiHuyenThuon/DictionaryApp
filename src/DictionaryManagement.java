@@ -99,9 +99,9 @@ public class DictionaryManagement extends Dictionary {
     }
 
 
-    public boolean dictionaryAddWord(String word, String type, String pronouce ,String mean) throws IOException {
+    public boolean dictionaryAddWord(String word, String type, String pronounce ,String mean) throws IOException {
         boolean check = false;
-        String s = type + "        /" + pronouce + "/        " + mean;
+        String s = type + "        /" + pronounce + "/        " + mean;
         for(int i = 0; i < dic.wordList.size(); i++) {
             if (Objects.equals(word, dic.wordList.get(i).getWord_target()) ) {
                     check = true;
@@ -135,16 +135,16 @@ public class DictionaryManagement extends Dictionary {
         else k = -1;
     }
 
-    public void updateWord(String w, String word, String type, String pronouce , String mean) {
+    public void updateWord(String w, String word, String type, String pronounce , String mean) {
 
         String s = null;
-        if(!type.isEmpty() && !pronouce.isEmpty()) {
-            s = type + "        /" + pronouce + "/        " + mean;
-        } else if(type.isEmpty() && !pronouce.isEmpty()) {
-            s = "/" + pronouce + "/        " + mean;
-        } else if(pronouce.isEmpty() && !type.isEmpty()) {
+        if(!type.isEmpty() && !pronounce.isEmpty()) {
+            s = type + "        /" + pronounce + "/        " + mean;
+        } else if(type.isEmpty() && !pronounce.isEmpty()) {
+            s = "/" + pronounce + "/        " + mean;
+        } else if(pronounce.isEmpty() && !type.isEmpty()) {
             s = type + "        " + mean;
-        } else if (pronouce.isEmpty() && type.isEmpty()) {
+        } else if (pronounce.isEmpty() && type.isEmpty()) {
             s = mean;
         }
 

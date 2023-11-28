@@ -12,7 +12,7 @@ public class DictionaryCommandline extends DictionaryManagement{
 
 
     public String showAllWord() {
-        String s = "No\t|\tEnglish\t\t|\tVietnamese\n";
+        String s = "No\t|\tEnglish\t\t|\t\tVietnamese\n";
         int no = 1;
         for (int i = 0; i < dic.wordList.size(); i++) {
             s += no + "\t|\t" + dic.wordList.get(i).getWord_target()

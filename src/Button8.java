@@ -65,7 +65,7 @@ class f extends JFrame {
     public f() {
 
         setTitle("DictionaryApp");
-        getContentPane().setBackground(new Color(167, 217, 181));
+        getContentPane().setBackground(new Color(245, 154, 208));
         setBounds(350, 100,600, 800);
         setLayout(null);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -141,8 +141,8 @@ class f2 extends f {
         playAgain = new JButton(scalIcon);
         playAgain.setBounds(130,300,400,400);
         playAgain.setBorder(new EmptyBorder(130,300,300, 400));
-        playAgain.setBackground(new Color(167, 217, 181));
+        playAgain.setBackground(new Color(180, 102, 185));
         add(playAgain);
-
+        setVisible(false);
     }
 }

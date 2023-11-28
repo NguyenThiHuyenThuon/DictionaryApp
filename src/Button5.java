@@ -22,8 +22,8 @@ public class Button5 extends JFrame {
         Image scaled = scaleImage(exitIcon.getImage(), 100, 50);
         ImageIcon scaledIcon = new ImageIcon(scaled);
         exit = new JButton(scaledIcon);
-        exit.setBounds(50,50,100,50);
-        setLayout(new BorderLayout());
+        exit.setBounds(0,701,600,50);
+        setLayout(null);
 
         txtMain.setFont(new Font("Arial",1,16));
         txtMain.setEditable(false);
@@ -31,9 +31,10 @@ public class Button5 extends JFrame {
         txtMain.setCaretPosition(text!=null? text.length() : 0);
         JScrollPane pane = new JScrollPane();
         pane.setViewportView(txtMain);
-        add(exit, BorderLayout.SOUTH);
-        add(pane, BorderLayout.CENTER);
-        setLocationRelativeTo(null);
+        txtMain.setBounds(0,0,600,700);
+        pane.setBounds(0,0,600,700);
+        add(exit);
+        add(pane);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
     }
